@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 20px;
+    margin-left: 20px;
+}
+.navbar-nav{
+    margin: auto;
+    font-size: 12px !important;
+}
+.hero-back{
+    background: url(Assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+ height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buy-box{
+   border-radius: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center;
+    width: 300px;
+    background-color: #0077ED;
+
+    
+
+}
+.buy-box-shorth{
+   border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center;
+    width: 300px;
+    background-color: #0077ED;
+    height: 40px;
+    /* line-height: 40px; */
+
+}
+.buy-para{
+    
+    margin: 0;
+}
+
+/* From Uiverse.io by mrhyddenn */ 
+.btn-hero {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: black ;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.btn-hero:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: white;
+}
+
+.btn-hero:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.btn-hero::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.btn-hero:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}
+.iphone-family{
+  margin-top: 30px;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  /* background-color: #F5F5F7; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.i-text-1{
+  font-size: 80px !important;
+}
+    .gradient-text {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(90deg, #007aff, #af52de, #ff2d55, #ff9500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    /* .sec-2-bto{
+      outline: none !important;
+      color: #FFF;
+      background-color: #0071E3;
+      width: 120px;
+      height: 40px;
+      border-radius: 50px;
+    } */
+     .sec-2-bto {
+  outline: none !important;
+  color: #FFF;
+  background-color: #0071E3;
+  width: 120px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500; /* Optional: better font weight */
+}
+.extra-classic{
+  background-color: transparent;
+  border: 1px solid #0071E3;
+  color: #0071E3;
+}
+.extra-classic:hover{
+    outline: none !important;
+  color: #FFF;
+  background-color: #0071E3;
+  width: 120px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500;
+}
+.btn-boxing-2{
+  margin-top: 10px;
+}
+.imging{
+  width: 60%;
+  height: 100%;
+  
+}
+.vid-box{
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/watching.png);
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-top: -30px;
+}
+    .xyz-2-bto {
+  outline: none !important;
+  margin-left: 8px;
+  color: black;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500; /* Optional: better font weight */
+}
+.extra-extra-classic{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.extra-extra-classic:hover{
+    outline: none !important;
+  color: black;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500;
+}
+.btn-boxing-2{
+  margin-top: 10px;
+}
+.extra-info{
+  font-size: 30px;
+}
+.apple-int{
+  font-size: 60px;
+  text-align: center;
+}
+@media  (max-width:320px){
+      .xyz-2-bto {
+  outline: none !important;
+  color: black;
+  background-color: white;
+  width: 120px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500; /* Optional: better font weight */
+}
+.extra-extra-classic{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.extra-extra-classic:hover{
+    outline: none !important;
+  color: black;
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500;
+}
+.buy-box{
+
+   border-radius: 50px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center;
+    width: 100%;
+    background-color: #0077ED;
+
+    
+
+}
+.buy-box-shorth{
+
+   border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    align-items: center;
+    width: 100%;
+    background-color: #0077ED;
+    height: 40px;
+    /* line-height: 40px; */
+
+}
+.buy-para{
+    
+    margin: 0;
+}
+      .the-hero-text{
+        font-size: 30px;
+      }
+
+}
+@media (max-width:262px){
+.buy-para{
+    font-size: 15px;
+    margin: 0;
+}
+      .the-hero-text{
+        font-size: 25px;
+      }
+ 
+}
+@media (max-width:304px){
+ .sec-2-bto {
+  outline: none !important;
+  color: #FFF;
+  background-color: #0071E3;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500; /* Optional: better font weight */
+} 
+.extra-classic{
+  background-color: transparent;
+  border: 1px solid #0071E3;
+  color: #0071E3;
+}
+.extra-classic:hover{
+    outline: none !important;
+  color: #FFF;
+  background-color: #0071E3;
+  width: 100px;
+  height: 40px;
+  border: none; /* Optional: removes default border */
+  border-radius: 50px;
+  cursor: pointer; /* Optional: shows hand cursor on hover */
+  font-weight: 500;
+}
+.btn-boxing-2{
+  margin-top: 10px;
+}
+.i-text-1{
+  font-size: 40px !important;
+}
+.i-text-2{
+  font-size: 20px !important;
+}
+    .gradient-text {
+      margin-top: 10px;
+      font-size: 10px;
+      font-weight: bold;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(90deg, #007aff, #af52de, #ff2d55, #ff9500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+}
+@media  (max-width:363px) {
+ .apple-int{
+  font-size: 40px !important;
+  text-align: center;
+} 
+.extra-info{
+  font-size: 20px;
+}
+}
