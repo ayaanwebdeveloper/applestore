@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 .logo{
     width: 20px;
     margin-left: 20px;
@@ -124,6 +127,20 @@ padding-top: 50px;
   -o-transform: skewX(-20deg);
   transform: skewX(-20deg);
 }
+.mar-main{
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-mar-im{
+  margin-left: 30px;
+  width: 30%;
+  height: 300px;
+}
+
 
 @keyframes sh02 {
   from {
@@ -265,7 +282,21 @@ padding-top: 50px;
   font-size: 60px;
   text-align: center;
 }
+.partition{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+}
+.oning{
+  margin-left: 8px;
+  margin-top: 5px;
+  width: 49%;
+}
+.carousel-inner{
+  height:90vh;
+}
 @media  (max-width:320px){
       .xyz-2-bto {
   outline: none !important;
@@ -397,4 +428,18 @@ padding-top: 50px;
 .extra-info{
   font-size: 20px;
 }
+}
+@media only screen and (max-width:819px){
+ .partition{
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.oning{
+
+  margin-top: 10px;
+  width: 100%;
+} 
 }
